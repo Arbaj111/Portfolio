@@ -1,12 +1,17 @@
-import React from 'react'
+import React from "react";
+import { NavLink, Link } from "react-router";
 
 function Home() {
   return (
-    <div className='text-6xl font-bold'>
-     <h1 >Home for arbaj</h1>
+    <div>
+      <div>
+        
+        
+      
+      </div>
+      <h1 className="text-6xl font-bold">Home for arbaj</h1>
     </div>
-  )
+  );
 }
 
-
-export { Home }
+export { Home };
